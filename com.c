@@ -23,6 +23,7 @@ int main() {
     install = system("sudo apt update");
     install = system("sudo apt install nodejs");
     install = system("sudo apt install npm");
+    install = system("sudo apt install mongodb");
 
     /***** DIRECTORIES *****/
     strcpy(cmd, "mkdir ");
